@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.iot.admin.mapper.UserMapper">
+
+    <resultMap id="BaseResultMap" type="com.iot.common.model.entity.admin.User">
+            <id property="id" column="id" jdbcType="VARCHAR"/>
+            <result property="org_id" column="org_id" jdbcType="VARCHAR"/>
+            <result property="name" column="name" jdbcType="VARCHAR"/>
+            <result property="password" column="password" jdbcType="VARCHAR"/>
+            <result property="create_time" column="create_time" jdbcType="TIMESTAMP"/>
+            <result property="creator" column="creator" jdbcType="VARCHAR"/>
+            <result property="last_update_time" column="last_update_time" jdbcType="TIMESTAMP"/>
+            <result property="last_operator" column="last_operator" jdbcType="VARCHAR"/>
+            <result property="version" column="version" jdbcType="BIGINT"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,org_id,name,
+        password,create_time,creator,
+        last_update_time,last_operator,version
+    </sql>
+</mapper>
