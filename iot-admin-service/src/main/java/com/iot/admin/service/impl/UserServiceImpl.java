@@ -1,6 +1,7 @@
-package com.iot.admin.service;
+package com.iot.admin.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.iot.admin.service.UserService;
 import generator.domain.User;
 import generator.service.UserService;
 import generator.mapper.UserMapper;
@@ -13,7 +14,7 @@ import org.springframework.stereotype.Service;
 */
 @Service
 public class UserServiceImpl extends ServiceImpl<UserMapper, User>
-    implements UserService{
+    implements UserService {
 
 }
 
