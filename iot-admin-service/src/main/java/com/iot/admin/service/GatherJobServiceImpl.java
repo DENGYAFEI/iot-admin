@@ -1,8 +1,7 @@
-package com.iot.admin.service.impl;
+package com.iot.admin.service;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.iot.admin.mapper.GatherJobMapper;
-import com.iot.admin.service.GatherJobService;
 import com.iot.common.exception.ServiceException;
 import com.iot.common.model.entity.task.GatherJob;
 import lombok.extern.slf4j.Slf4j;

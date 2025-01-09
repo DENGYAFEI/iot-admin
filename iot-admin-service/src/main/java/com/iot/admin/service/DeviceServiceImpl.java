@@ -1,4 +1,4 @@
-package com.iot.admin.service.impl;
+package com.iot.admin.service;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import generator.domain.Device;

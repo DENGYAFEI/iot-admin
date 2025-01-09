@@ -3,8 +3,6 @@ package com.iot.admin;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.autoconfigure.amqp.RabbitAutoConfiguration;
-import org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration;
 
 @Slf4j
 @SpringBootApplication
