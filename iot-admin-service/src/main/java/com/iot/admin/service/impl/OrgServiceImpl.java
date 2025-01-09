@@ -1,10 +1,9 @@
 package com.iot.admin.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.iot.admin.mapper.OrgMapper;
 import com.iot.admin.service.OrgService;
-import generator.domain.Org;
-import generator.service.OrgService;
-import generator.mapper.OrgMapper;
+import com.iot.common.model.entity.admin.Org;
 import org.springframework.stereotype.Service;
 
 /**

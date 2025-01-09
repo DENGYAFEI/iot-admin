@@ -1,10 +1,9 @@
 package com.iot.admin.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.iot.admin.mapper.ModbusConfigMapper;
 import com.iot.admin.service.ModbusConfigService;
-import generator.domain.ModbusConfig;
-import generator.service.ModbusConfigService;
-import generator.mapper.ModbusConfigMapper;
+import com.iot.common.model.entity.admin.ModbusConfig;
 import org.springframework.stereotype.Service;
 
 /**
